@@ -15,5 +15,5 @@ export const keys = [
   { value: '7', name: 'seven' },
   { value: '8', name: 'eight' },
   { value: '9', name: 'nine' },
-  { value: 'X', name: 'multiply' },
+  { value: '*', name: 'multiply' },
 ];

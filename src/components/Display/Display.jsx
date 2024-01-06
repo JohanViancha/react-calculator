@@ -1,11 +1,14 @@
-import './Display.css'
+import './Display.css';
 
-const Display = () => {
+const Display = ({ text }) => {
   return (
-    <div className='display'>
-      
-    </div>
-  )
-}
+    <input
+      id='display'
+      className='display'
+      value={text}
+      readOnly
+    />
+  );
+};
 
-export default Display
+export default Display;
